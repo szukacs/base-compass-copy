@@ -1,7 +1,7 @@
 import { Box, Button, Card, CardContent, Container, Grid, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-const PricingCard = styled(Card)(({ theme }) => ({
+const PricingCard = styled(Card)(() => ({
   height: '100%',
   transition: 'transform 0.2s',
   '&:hover': {

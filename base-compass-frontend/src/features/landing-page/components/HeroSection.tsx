@@ -1,7 +1,7 @@
 import { Box, Button, Container, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
-const HeroWrapper = styled(Box)(({ theme }) => ({
+const HeroWrapper = styled(Box)(() => ({
   minHeight: '80vh',
   background: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/hero-bg.jpg')`,
   backgroundSize: 'cover',

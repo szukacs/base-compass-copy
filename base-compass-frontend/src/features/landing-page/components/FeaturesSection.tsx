@@ -4,7 +4,7 @@ import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
 import ExploreIcon from '@mui/icons-material/Explore';
 
-const FeatureCard = styled(Card)(({ theme }) => ({
+const FeatureCard = styled(Card)(() => ({
   height: '100%',
   transition: 'transform 0.2s',
   '&:hover': {
